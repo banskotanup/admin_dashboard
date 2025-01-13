@@ -1,0 +1,66 @@
+:root{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", serif;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    height: 98vh;
+
+}
+
+.slider{
+    grid-row: 1/6;
+    background-color: blue;
+    padding: 10px;
+}
+
+.header{
+    grid-column: 2/6;
+    background-color: aqua;
+}
+
+.main{
+    grid-area: 2/2/6/end;
+    background-color: black;
+    
+}
+
+.slider>.dashboard>a>svg{
+    height: 30px;
+}
+
+.slider>.dashboard>a{
+    font-weight: 800;
+    text-transform: uppercase;
+    font-size: 40px;
+}
+
+.slider>div>a{
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    margin: 10px;
+    font-size: 26px;
+}
+
+svg{
+    height: 20px;
+}
+.dashboard{
+    margin-top: 40px;
+}
+
+#home{
+    margin-top: 30%;
+}
+
+.slider-menu{
+    margin: 20px;
+    padding: 10px;
+    font-weight: 400;
+}
