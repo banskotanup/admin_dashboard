@@ -77,11 +77,11 @@ svg{
     flex-direction: column;
 }
 
-.navbar{
+.navbar, .left{
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin: 10px 20px;
+    margin: 5px 20px;
 }
 
 .navbar-left{
@@ -102,16 +102,153 @@ svg{
     width: 40vw;
     align-items: center;
     justify-content: flex-end;
+    margin-right: 3%;
 }
 
-.nav-profile{
+.nav-profile, .welcome-profile{
     margin: 0 20px;
 }
 
 .welcome{
-
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 5px 20px;
 }
+
+.right{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 30%;
+    margin-right: 30px;
+}
+
+.btn{
+    background-color: #0ea5e9;
+    color: white;
+    width: 70px;
+    height: 35px;
+    border: 1px solid #0ea5e9;
+    border-radius: 20px;
+}
+
 
 .content{
     background-color: #d4d4d4;
+    display: grid;
+    grid-template-columns: 75% 25%;
+}
+
+.cards{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.card{
+    background-color: white;
+    border-left: 8px solid #facc15;
+    border-radius: 20px;
+    width: 80%;
+    height: 175px;
+    margin: 15px 0;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 10px;
+}
+
+h4{
+    font-size: 18px;
+    padding: 10px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+h6{
+    font-size: 15px;
+    padding-left: 10px;
+    padding-top: 10px;
+    margin-top: 10px;
+}
+
+.card p{
+    font-size: 13px;
+    text-align: justify;
+    padding: 10px;
+    color: gray;
+}
+.icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    width: 95%;
+    padding: 2%;
+}
+
+.icons svg{
+    margin: 10px;
+}
+
+
+.ann-card{
+    background-color: white;
+    border-radius: 5px;
+    width: 80%;
+    height: 50%;
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 10px;
+}
+
+.ann-h6{
+    font-size: 10px;
+    padding: 10px;
+}
+
+.ann-card p{
+    color: gray;
+    font-size: 8px;
+    padding: 10px;
+    border-bottom: 1px solid black;
+}
+
+.trend-card{
+    background-color: white;
+    border-radius: 5px;
+    width: 80%;
+    height: 30%;
+    margin: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 10px;
+}
+
+.trend-text{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 5px;
+}
+
+
+.trend-texts-text h6{
+    font-size: 12px;
+    margin-left: 10%;
+}
+
+.trend-texts-text p{
+    color: gray;
+    font-size: 10px;
+    margin-left: 20%;
 }
