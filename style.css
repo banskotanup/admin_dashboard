@@ -1,28 +1,117 @@
-:root{
+*{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+}
+
+body{
     font-family: "Roboto", serif;
 }
 
-.sidebar>.dashboard>a>svg{
-    height: 30px;
+.grid{
+    display: grid;
+    grid-template-columns: 15% 85%;
 }
 
-.sidebar>.dashboard>a{
-    font-weight: 800;
-    text-transform: uppercase;
-    font-size: 40px;
+.sidebar{
+    background-color: #0ea5e9;
+    height: 100vh;
+    color: white;
 }
 
-.sidebar>div>a{
-    text-decoration: none;
-    color: black;
-    padding: 10px;
-    margin: 10px;
-    font-size: 26px;
+.logo-text svg{
+    width: 35px;
+    height: 35px;
 }
 
 svg{
-    height: 20px;
+    width: 24px;
+    height: 24px;
+}
+
+.logo-text{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 20px 40px;
+}
+
+.logo-text h1{
+    font-size: 25px;
+    text-transform: uppercase;
+    margin-left: 10px;
+}
+
+.icon-text{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 10px 50px;
+    padding: 5px;
+}
+
+.icon-text p{
+    margin-left: 10px;
+    font-size: 20px;
+    font-weight: 700;
+}
+.list-items{
+    margin-top: 30px;
+}
+
+.list-items-buttom{
+    margin-top: 50px;
+}
+
+.main{
+    background-color: white;
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 20% 80%;
+}
+
+.header{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 10px 20px;
+}
+
+.navbar-left{
+    display: flex;
+}
+
+.form-input{
+    width: 500px;
+    background-color: lightgray;
+    border-radius: 10px;
+    border: 1px solid lightgray;
+    margin-left: 20px;
+    margin-right: 200px;
+}
+
+.navbar-right{
+    display: flex;
+    width: 40vw;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.nav-profile{
+    margin: 0 20px;
+}
+
+.welcome{
+
+}
+
+.content{
+    background-color: #d4d4d4;
 }
